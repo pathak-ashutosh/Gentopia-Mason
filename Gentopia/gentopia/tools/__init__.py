@@ -13,6 +13,8 @@ from .gradio import *
 from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
+from .read_pdf import ReadPdf
+from .imdb_search import ImdbSearch
 
 
 def load_tools(name: str) -> BaseTool:
@@ -43,6 +45,8 @@ def load_tools(name: str) -> BaseTool:
         "search_single_paper": SearchSinglePaper,
         "search_related_paper": SearchRelatedPaper,
         "search_cite_paper": SearchCitePaper,
+        "read_pdf": ReadPdf,
+        "imdb_search": ImdbSearch,
     }
     if name not in name2tool:
         raise NotImplementedError

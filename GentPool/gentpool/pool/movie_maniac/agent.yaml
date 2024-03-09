@@ -1,0 +1,19 @@
+name: movie_maniac
+description: An agent that searches for movie information on IMDb and performs Google searches.
+type: openai
+version: 0.0.1
+target_tasks:
+  - Search for movie information on IMDb
+  - Perform web searches using Google
+prompt_template: !prompt VanillaPrompt
+llm:
+  model_name: gpt-3.5-turbo
+  params:
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 0.0
+    max_tokens: 4096
+plugins:
+  - name: google_search
+  - name: imdb_search
+    file: imdb_search.py
