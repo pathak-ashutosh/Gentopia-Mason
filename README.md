@@ -1,9 +1,11 @@
 # Gentopia-Mason
 
-**IMPORTANT NOTICE: This code repository was adapted from [Gentopia.AI](https://github.com/Gentopia-AI) to support Mason Activities.** 
+**IMPORTANT NOTICE: This code repository was adapted from [Gentopia.AI](https://github.com/Gentopia-AI).** 
 
-Author: Ziyu Yao (ziyuyao@gmu.edu)
+Authors: Ziyu Yao (ziyuyao@gmu.edu) and Ashutosh Pathak (ashutoshpathak.jobs@gmail.com)  
 Copyright and license should go to Gentopia.AI.
+
+> I created a Movie-Madness Agent that can query imdb and get movie/series data and present them to user upon query. If a movie is not present, it shows relevant message.
 
 ## Installation 💻
 First, clone this repository:
