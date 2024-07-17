@@ -8,8 +8,8 @@ Copyright and license should go to Gentopia.AI.
 ## Installation 💻
 First, clone this repository:
 ```
-git clone git@github.com:LittleYUYU/Gentopia-Mason.git
-cd Gentopia-Mason
+git clone git@github.com:pathak-ashutosh/gentopia-mason.git
+cd gentopia-mason
 ```
 Next, we will create a virtual environment and install the library:
 ```
